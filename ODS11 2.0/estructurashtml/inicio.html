@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estiloscss/inicio.css">
+    <script src="../javascrit/animacion1.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+    <script src="../javascrit/estatic1.js" defer></script>
+    <script src="https://kit.fontawesome.com/a2dd6045c4.js" crossorigin="anonymous"></script>
+    <script src="../javascrit/animacion3.js"></script> 
+    <title>ODS11</title>
+</head>
+<body>
+    <section id="banner1">
+        <header>
+            <nav class="menu">
+                <a href="contactanos.html">CONTACTANOS</a>
+                <a href="#">INVOLUCRATE</a>
+                <a href="inicio.html" class="imagen-decorada">
+                    <img src="../imagenes2/logoods.png" alt="">
+                </a>
+                <a href="conocenos.html">CONOCENOS</a>
+                <a href="#">PRODUCTO</a>
+            </nav>
+        </header>
+        <div class="div-portada">
+            <h2 >
+                LOS OBJETIVOS DE 
+            </h2>
+            <h2>
+                DESARROLLO
+            </h2>
+            <h2 class="sos">
+                SOSTENIBLE
+            </h2>
+            <div class="ods">
+            </div>
+            <button><a href="conocenos.html">Descubrir ODS 11</a></button>
+        </div>
+    </section>
+    </div>
+    <hr class="linea-blanca">
+
+    <section class="texto1">
+        <div>
+            <h2>¿QUE SON LOS ODS?</h2>
+            <p>Los ODS (Objetivos de Desarrollo Sostenible) son 17 metas globales establecidas por la ONU en 2015 para mejorar la vida de las personas y proteger el planeta antes del 2030. Se centran en eliminar la pobreza, garantizar la salud y educación, promover la igualdad de género, y combatir el cambio climático. Su objetivo es lograr un futuro más justo y sostenible para todos.</p>
+            </div>
+        <div class="ruleta">  
+                    <img src="../imagenes2/mundoods.png" alt="Imagen girando" class="imagen-girando">  
+        </div> 
+    </section>
+    <section class="texto2">
+        <div>
+        <h2>IMPORTANCIA GLOBAL</h2>
+            <p>Los Objetivos de Desarrollo Sostenible (ODS) son de vital importancia por diversas razones. En primer lugar, proveen una guía clara para el desarrollo sostenible, estableciendo un marco que orienta a los países y comunidades en la dirección adecuada para enfrentar los desafíos globales. Además, los ODS abordan la erradicación de la pobreza y la desigualdad, buscando crear un mundo donde todos tengan acceso a las oportunidades y recursos esenciales.
+            </p>
+        </div>
+            <div class="img2">
+                <img src="../imagenes2/inp-glo.png" alt="">
+            </div>   
+    </section>
+    <section class="texto3">
+        <div>
+            <h2>HISTORIA</h2>
+                <p>Los Objetivos de Desarrollo Sostenible (ODS) fueron adoptados en septiembre de 2015 por 193 Estados miembros de la ONU durante la Cumbre de Desarrollo Sostenible en Nueva York, como parte de un esfuerzo global para erradicar la pobreza, proteger el planeta y asegurar la prosperidad para todos. Estos 17 objetivos y sus 169 metas surgieron de un proceso de consulta inclusivo, construido sobre los principios de desarrollo sostenible establecidos en el Informe Brundtland de 1987 y los Objetivos de Desarrollo del Milenio (ODM), y buscan abordar los desafíos sociales, económicos y ambientales de manera integral, fomentando la cooperación internacional hacia un futuro sostenible y equitativo.
+                </p>
+                    <img src="../imagenes2/odspaise.png" alt="">
+                </div>
+    </section>
+        <main>
+            <h2>EXPLORA TODOS LOS ODS</h2>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </main>
+ <!--funcion estatica1 html -->
+ <div class="footer">
+    <button id="estatico" onclick="scrollToTop()">Volver al inicio</button>
+</div>
+
+
+
+    <script>
+        const imagenes = [
+            'https://www.elternativa.com/wp-content/uploads/2023/07/ODS-1.jpg',
+            'https://www.elternativa.com/wp-content/uploads/2023/07/ODS-2.jpg',
+            'https://www.elternativa.com/wp-content/uploads/2023/07/ODS-3.jpg',
+            'https://www.elternativa.com/wp-content/uploads/2023/07/ODS-4.jpg',
+            'https://www.elternativa.com/wp-content/uploads/2023/07/ODS-5.jpg',
+            'https://www.elternativa.com/wp-content/uploads/2023/07/ODS-6.jpg',
+            'https://www.elternativa.com/wp-content/uploads/2023/07/ODS-7.jpg',
+            'https://www.elternativa.com/wp-content/uploads/2023/07/ODS-8.jpg',
+            'https://www.elternativa.com/wp-content/uploads/2023/07/ODS-9.jpg',
+            'https://www.elternativa.com/wp-content/uploads/2023/07/ODS-10.jpg',
+            'https://www.elternativa.com/wp-content/uploads/2023/07/ODS-11.jpg',
+            'https://www.elternativa.com/wp-content/uploads/2023/07/ODS-12.jpg'];
+
+        let movimiento = 0;
+        const imageElement = document.querySelector('.relative img');
+        const izquierda = document.getElementById('izquierda');
+        const derecha = document.getElementById('derecha');
+        function showImage(index) {
+            imageElement.src = imagenes[index];
+        }
+        function showNextImage() {
+            movimiento = (movimiento + 1) % imagenes.length;
+            showImage(movimiento);
+        }
+        function showPrevImage() {
+            movimiento = (movimiento - 1 + imagenes.length) % imagenes.length;
+            showImage(movimiento);
+        }
+        derecha.addEventListener('click', showNextImage);
+        izquierda.addEventListener('click', showPrevImage);
+        setInterval(showNextImage, 5000);
+    </script>
+    
+
+</body>

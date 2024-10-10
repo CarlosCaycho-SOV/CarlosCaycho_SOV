@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0 0 0 0;
+  font-family: 'Times New Roman', Times, serif;
+  user-select: none;
+}
+
+.linea-blanca {
+  height: 2px;
+}
+.menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height:6vw;
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px black;
+}
+
+header img {
+  width: 5vw;
+}
+.imagen-decorada {
+  display: inline-block; 
+  border-bottom: 5px solid #FF6600;
+}
+
+
+#banner1 {
+  position: relative;
+  background-image: url(../imagenes2/ciudadsostenible03.jpg);
+  background-size: cover;
+  backdrop-filter: blur(20px);
+  background-position: center;
+  height: 52vw;
+}
+
+.div-portada {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;  
+     margin: 6vw;
+}
+.div-portada h2,span{
+  color: white;
+  font-size: 4vw;
+  font-weight: 800;
+}
+.div-portada .sos{
+  color: #FF6600;
+}
+.div-portada p{
+  color: #ffffff;
+  font-size: 1.5vw;
+  margin: 20px;
+  width: 50vw;
+  text-align: center;
+}
+
+.div-portada button {
+  color: white;
+  background: #FF6600;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin: 1vw;
+  font-size: 1vw;
+}
+
+
+
+
+
+/*que son los ods*/
+
+.texto1 {
+  background: #323A41;
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.texto1 div {
+  text-align: center;
+  width: 50%;
+  margin: 50px;
+  padding: 20px;
+  font-size: 25px;
+}
+.texto1 h2 {
+  text-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+
+.texto2 {
+  background: #323A41;
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  flex-direction: row-reverse;
+}
+
+.texto2 h2 {
+  text-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+
+.texto2 div {
+  text-align: center;
+  width: 50%;
+  margin: 50px;
+  padding: 40px;
+  font-size: 25px;
+}
+
+.img2 img{
+  width: 550px;
+}
+
+
+.ods{
+  color: white;
+  font-size: 20px;
+  width: 600px;
+  height: 100px;
+  text-align: center;
+}
+
+
+.texto3 {
+  background: #323A41;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.texto3 h2 {
+  text-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+
+.texto3 div {
+  text-align: center;
+  width: 50%;
+  font-size: 25px;
+}
+
+.texto3 img{
+  width: 550px;
+  position: relative;
+  margin: 80px 150px;
+}
+
+
+
+
+
+
+#mun {
+  width: 55vw;
+}
+
+#manomundo {
+  padding-top: 2vw;
+  padding-left: 11vw;
+  width: 35vw;
+}
+
+/* ruleta mundo girando */
+.ruleta{  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  width: 350px; 
+  height: 350px;
+  overflow: hidden;  
+}  
+@keyframes girar {  
+  from {  
+      transform: rotate(0deg);  
+  }  
+  to {  
+      transform: rotate(360deg);  
+  }  
+}  
+
+.imagen-girando {  
+  width: 450px; 
+  animation: girar 10s linear infinite;   
+}
+/* fin de ruleta mundo girando */
+
+
+
+
+
+/*funcion estatica1 css*/
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 90vw;
+  padding-bottom: 1vw;
+}
+
+#estatico {
+  padding: 1vw 1vw;
+  background-color: #0000008c;
+  color: white;
+  font-size: 1vw;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
